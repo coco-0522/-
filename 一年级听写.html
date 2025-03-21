@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>汉字学习卡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#FF6B6B',
+secondary: '#4ECDC4'
+},
+borderRadius: {
+'none': '0px',
+'sm': '2px',
+DEFAULT: '4px',
+'md': '8px',
+'lg': '12px',
+'xl': '16px',
+'2xl': '20px',
+'3xl': '24px',
+'full': '9999px',
+'button': '4px'
+}
+}
+}
+}
+</script>
+<style>
+body {
+font-family: 'Noto Sans SC', sans-serif;
+min-height: 1024px;
+background-color: #F8F9FA;
+}
+.word-card {
+transition: all 0.3s ease;
+}
+.word-card:hover {
+transform: translateY(-5px);
+}
+.word-card:active {
+transform: scale(0.98);
+}
+</style>
+</head>
+<body>
+<div class="container mx-auto px-4 py-8">
+<h1 class="text-4xl font-bold text-center mb-12 text-gray-800">汉字学习卡</h1>
+<div class="grid grid-cols-1 gap-8 max-w-2xl mx-auto">
+<!-- 吸 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/4791110f4ac684bf41f53f992b43bd90.jpg"
+class="w-full h-full object-cover" alt="吸">
+</div>
+<div class="p-6">
+<div class="text-3xl font-bold mb-2 text-gray-800">吸</div>
+<div class="text-lg text-gray-600 mb-3">xī</div>
+<div class="text-sm text-gray-500">小猫在吸牛奶。</div>
+</div>
+</div>
+<!-- 湿 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/29ea2b3066957d363dfe74da035a719d.jpg"
+class="w-full h-full object-cover" alt="湿">
+</div>
+<div class="p-6">
+<div class="text-3xl font-bold mb-2 text-gray-800">湿</div>
+<div class="text-lg text-gray-600 mb-3">shī</div>
+<div class="text-sm text-gray-500">下雨了，地面很湿。</div>
+</div>
+</div>
+<!-- 围 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/bc81a780defa893f81e05d1cbd261259.jpg"
+class="w-full h-full object-cover" alt="围">
+</div>
+<div class="p-6">
+<div class="text-3xl font-bold mb-2 text-gray-800">围</div>
+<div class="text-lg text-gray-600 mb-3">wéi</div>
+<div class="text-sm text-gray-500">小朋友围成一圈。</div>
+</div>
+</div>
+<!-- 池塘 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/3784a9451ccb5d99173a36420b52a05d.jpg"
+class="w-full h-full object-cover" alt="池塘">
+</div>
+<div class="p-6">
+<div class="text-3xl font-bold mb-2 text-gray-800">池塘</div>
+<div class="text-lg text-gray-600 mb-3">chítáng</div>
+<div class="text-sm text-gray-500">池塘里有许多小鱼。</div>
+</div>
+</div>
+<!-- 遇见 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/7a99633739ac530a2380f60a00bc4e18.jpg"
+class="w-full h-full object-cover" alt="遇见">
+</div>
+<div class="p-6">
+<div class="text-3xl font-bold mb-2 text-gray-800">遇见</div>
+<div class="text-lg text-gray-600 mb-3">yùjiàn</div>
+<div class="text-sm text-gray-500">我在公园遇见了好朋友。</div>
+</div>
+</div>
+<!-- 岸上 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/7f4aa251d7e3d3628856b12fa3987c3a.jpg"
+class="w-full h-full object-cover" alt="岸上">
+</div>
+<div class="p-6">
+<div class="text-3xl font-bold mb-2 text-gray-800">岸上</div>
+<div class="text-lg text-gray-600 mb-3">àn shang</div>
+<div class="text-sm text-gray-500">小鸭子在岸上休息。</div>
+</div>
+</div>
+<!-- 趴 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/e4e10a367805522606b77e8bdfce452b.jpg"
+class="w-full h-full object-cover" alt="趴">
+</div>
+<div class="p-6">
+<div class="text-3xl font-bold mb-2 text-gray-800">趴</div>
+<div class="text-lg text-gray-600 mb-3">pā</div>
+<div class="text-sm text-gray-500">小猫趴在地上睡觉。</div>
+</div>
+</div>
+<!-- 连连 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/b03b56f1b28851e701138f180bf38095.jpg"
+class="w-full h-full object-cover" alt="连连">
+</div>
+<div class="p-6">
+<div class="text-3xl font-bold mb-2 text-gray-800">连连</div>
+<div class="text-lg text-gray-600 mb-3">lián lián</div>
+<div class="text-sm text-gray-500">小朋友们连连手跳舞。</div>
+</div>
+</div>
+<!-- 离开 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/32cf6bf532ce5837feafbd092e566b74.jpg"
+class="w-full h-full object-cover" alt="离开">
+</div>
+<div class="p-6">
+<div class="text-3xl font-bold mb-2 text-gray-800">离开</div>
+<div class="text-lg text-gray-600 mb-3">lí kāi</div>
+<div class="text-sm text-gray-500">小鸟离开了巢穴。</div>
+</div>
+</div>
+<!-- 摆 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/b0e2b3df6cdac028c7823440a364f471.jpg"
+class="w-full h-full object-cover" alt="摆">
+</div>
+<div class="p-6">
+<div class="text-3xl font-bold mb-2 text-gray-800">摆</div>
+<div class="text-lg text-gray-600 mb-3">bǎi</div>
+<div class="text-sm text-gray-500">妈妈把花瓶摆在桌子上。</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+document.querySelectorAll('.word-card').forEach(card => {
+card.addEventListener('click', function() {
+const word = this.querySelector('.text-3xl').textContent;
+const utterance = new SpeechSynthesisUtterance(word);
+utterance.lang = 'zh-CN';
+window.speechSynthesis.speak(utterance);
+});
+});
+</script>
+</body>
+</html>
